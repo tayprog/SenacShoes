@@ -1,9 +1,70 @@
 /* Estilização globais */
 body{
-    background-color: pink;
+    background-color: #F7F7F7;
+    margin: 0px;
+    margin-top: 60px;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 60px; /* Espaçamento para todos os lados entre os componentes */
+    justify-items: center;
 }
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Estelização do menu */
+.menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu a {
+    text-transform: uppercase;
+    background-color: #FFF;
+    padding: 15px 30px;
+    color: #000;
+    border-radius: 20px;
+}
+
+.menu a:hover {
+    background-color: #9353ff;
+}
+
 /* Estilização do conteudo  */
 .conteudo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+}
+
+.botao {
+    background-color: #9353ff;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+
+.botao:hover {
+    background-color: #ae87f0;
+    color: #000;   
+}
+/* Estilização do footer */
+.rodape {
+    background-color: #FFF;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
 }
