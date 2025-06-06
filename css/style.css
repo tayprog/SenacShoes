@@ -21,6 +21,7 @@ h1, h2, h3, p {
     margin: 0px;
 }
 
+
 p {
     font-size: 20px;
 }
@@ -37,7 +38,7 @@ p {
     background-color: #FFF;
     padding: 15px 30px;
     color: #000;
-    border-radius: 20px;
+    border-radius: 4px;
 }
 
 .menu a:hover {
@@ -54,17 +55,53 @@ p {
 .botao {
     background-color: #9353ff;
     padding: 15px 30px;
-    border-radius: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFF;
 }
 
 .botao:hover {
     background-color: #ae87f0;
     color: #000;   
 }
+  /* Estilização da introducao */
+.introducao {
+    display: grid;
+    padding: 40px;
+    background-color: #FFF;
+    text-align: end;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    font-size: 64px;
+    text-align: end;
+    padding: 40px;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.2);
+}
+/* Estilização das vantagens     */
+.vatagens {
+    background-color: #FFF;
+    padding: 40px;
+}
+.vantagens-item{
+    display: grid;
+    background-color: #FFF;
+    grid-template-columns: auto 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+}
+.vantagens-item p{
+    grid-column: 2;
+}
 /* Estilização do footer */
 .rodape {
     background-color: #FFF;
     text-align: center;
     padding: 40px;
-    width: 100%;
+    width: 95%;
 }
